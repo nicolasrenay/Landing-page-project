@@ -15,7 +15,7 @@ body {
 }
 
 .container, .hero-secondary-wrapper {
-    width: 1200px;
+    width: 1100px;
 
 
 }
@@ -80,7 +80,11 @@ a {
     flex-wrap: wrap;
     flex-grow: 1;
     flex-basis: 0;
-    margin-right: 150px;
+    margin-right: 50px;
+ }
+
+ .value-prop p {
+    font-size: 18px;
  }
 
 
@@ -99,7 +103,9 @@ a {
 
 
  h1 {
-    font-size: 38px;
+    font-size: 48px;
+    font-weight: 800;
+
  }
 
 .hero-secondary {
@@ -174,12 +180,12 @@ h2 {
 .cta-wrapper {
     margin: 80px 0;
     display: flex;
-    width: 1200px;
+    width: 1100px;
     flex-wrap: wrap;
     background-color: #3882F6;
     border-radius: 10px;
     color: white;
-    padding: 30px 80px;
+    padding: 50px 80px;
     justify-content:space-around;
 }
 
